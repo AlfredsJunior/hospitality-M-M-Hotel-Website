@@ -1,0 +1,122 @@
+body{
+    background-image: url("images/image1.jpg");
+
+}
+
+
+.first_div_header{
+  background-color:#ADD8E6;
+}
+
+
+.submit_book{
+  color: #FFFFFF;
+  margin-right: 20px;
+  float: right;
+}
+
+.contact .contact-cont {
+  margin: 0 auto 60px auto;
+  text-align: center; }
+  .contact .contact-cont a {
+    text-decoration: none; }
+  .contact .contact-cont img {
+    margin: 0 auto;
+    margin-bottom: 15px; }
+  .contact .contact-cont h5 {
+    text-align: center;
+    color: #adb5bd; }
+    .contact{
+      background-color: #ADD8E6;
+    }
+
+
+
+table, th, td{
+background-color: inherit;
+}
+
+.see_view_div{
+  background-color:#ADD8E6;
+
+}
+
+.pool_side_div{
+  background-color:#ADD8E6;
+
+}
+
+.beach_suite_div{
+  background-color:#ADD8E6;
+
+}
+
+.restaurantdiv{
+  background-color:#ADD8E6;
+}
+
+.kite_surfing_div{
+  background-color:#ADD8E6;
+}
+
+.safaris_div{
+  background-color:#ADD8E6;
+
+}
+
+.footer_div{
+  background-color: #DAA520;
+  align:center;
+
+
+}
+
+
+.second_div_links{
+  background-color: #DAA520;
+
+
+}
+
+a{
+color: #111;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.firstindex_unordered_list{
+  align: left;
+
+}
+
+
+li{
+   color: #111;
+    text-align: left;
+    font-family: verdana;
+    }
+
+
+
+    h1{
+      color: #111;
+      font-family: verdana;
+
+    }
+
+  h2{
+  color: #111;
+  font-family: verdana;
+
+  }
+  h3{
+    color: #111;
+    font-family: verdana;
+  }
+
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+}

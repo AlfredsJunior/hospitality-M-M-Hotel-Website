@@ -1,114 +1,169 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
-
-    <script type="text/javascript">
-                                  var slideIndex = 1;
-                              showSlides(slideIndex);
-
-                              // Next/previous controls
-                              function plusSlides(n) {
-                                showSlides(slideIndex += n);
-                              }
-
-                              // Thumbnail image controls
-                              function currentSlide(n) {
-                                showSlides(slideIndex = n);
-                              }
-
-                              function showSlides(n) {
-                                var i;
-                                var slides = document.getElementsByClassName("mySlides");
-                                var dots = document.getElementsByClassName("dot");
-                                if (n > slides.length) {slideIndex = 1}
-                                if (n < 1) {slideIndex = slides.length}
-                                for (i = 0; i < slides.length; i++) {
-                                    slides[i].style.display = "none";
-                                }
-                                for (i = 0; i < dots.length; i++) {
-                                    dots[i].className = dots[i].className.replace(" active", "");
-                                }
-                                slides[slideIndex-1].style.display = "block";
-                                dots[slideIndex-1].className += " active";
-                              }
-    </script>
-
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     <title>M&M Tours and Hotel</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <div class="first_div_header">
+      <h1>M&M Tours and Hotel</h1>
+      <h2>A Hotel and Touring Company</h2>
+      <h2>Nairobi, Kenya</h2>
+       <button type="submit" name="submit_book" align="left" border="#FFFFFF"><b> BOOK NOW</b></button>
+
+    </div>
+
+
+    <div class="second_div_links">
+
     <center>
-    <a href="index.html">Home</a> &nbsp &nbsp &nbsp &nbsp
-    <a href="services.html">Services</a> &nbsp &nbsp &nbsp &nbsp
-    <a href="aboutus.html">About Us</a> &nbsp &nbsp &nbsp &nbsp
-    <a href="contactus.html">Contact Us</a> </br> </br> </center>
+    <a href="index.html" class="a_link">Home</a> &nbsp &nbsp &nbsp &nbsp
+    <a href="services.html" class="a_link">Services</a> &nbsp &nbsp &nbsp &nbsp
+    <a href="aboutus.html" class="a_link">About Us</a> &nbsp &nbsp &nbsp &nbsp
+    <a href="contactus.html" class="a_link">Contact Us</a> </br> </br> </center>
 
 
   </head>
   <body>
-    <h1>M&M  Hotel & Tours</h1>
 
-    <ul type="disc">
+    <ul type="disc" class="firstindex_unordered_list">
       <li><a href="index.html">Home</a> </li>
       <li><a href="services.html">Services</a> </li>
       <li><a href="aboutus.html">About Us</a> </li>
       <li><a href="contactus.html">Contact Us</a> </li>
     </ul> </br>
-    <center> <h1>News</h1> </center>
+    <center> <h2><b>News</b></h2> </center>   </div> </br>
 
-    <div class="image-container">
-      <img src="images\chips.jpg" alt="Chips" width="100%" height="400">
 
-    </div>
+<div class="index_table_div_table">
+  <table>
+    <tr>
 
-     <center>
-    <div class="image-slide-shows">
-      <div class="slideshow-container">
+      <td>
+        <div class="see_view_div">
+          <h3>SEA VIEW ROOMS</h3>
+          <p>All rooms facing the ocean and with</p>
+          <p>large sea view terraces. Designed in </p>
+          <p>the typical coastal swahili style, they</p>
+          <p>are air-conditioned and suitable for</p>
+          <p>families.</p>
+          <img src="images\index1.jpg" alt=" Sea View Rooms" width="300" height="200">
+        </div>
+      </td>
 
- <!-- Full-width images with number and caption text -->
+      <td>
+        <div class="pool_side_div">
+          <h3>POOL SIDE ROOMS</h3>
+          <p>This rooms are designed around</p>
+          <p>the outdoor swimming pool. All  </p>
+          <p>air-conditioned and set with </p>
+          <p>one double and one single bed.</p>
+          <p>families.</p>
+          <img src="images\pool_side_beach.jpg" alt=" Pool Side Beach" width="300" height="200">
+      </div>
+      </td>
 
- <div class="mySlides fade">
-   <div class="numbertext">1 / 4</div>
-   <img src="images\food_presentation.jpg" style="width:30%">
-   <div class="text">Caption Text</div>
- </div>
+      <td>
+        <div class="beach_suite_div">
+          <h3>BEACH SUITE</h3>
+          <p>This family suite is just on the </p>
+          <p>beach front. Two bedrooms , living </p>
+          <p>room, panoramic view</p>
+          <img src="images\image4.jpg" alt=" Family Suite" width="300" height="260">
+          </div>
+      </td
 
- <div class="mySlides fade">
-   <div class="numbertext">2 / 4</div>
-   <img src="images\yummmy_yummy.jpg" style="width:30%">
-   <div class="text">Caption Two</div>
- </div>
+      <td>
+          <div class="restaurantdiv">
+              <h3>RESTAURANT​</h3>
+              <p>The hotel's restaurant is straight </p>
+              <p>on the beach. We are </p>
+              <p>specialized in seafood with meat </p>
+              <p>and vegetarian options as well.</p>
+              <img src="images\restaurant2.jpg" alt="restaurant" width="300" height="200">
+          </div>
+      </td>
+    </tr>
 
- <div class="mySlides fade">
-   <div class="numbertext">3 / 4</div>
-   <img src="images\supaghetti_unsplash.jpg" style="width:30%">
-   <div class="text">Caption Three</div>
- </div>
+    <tr>
+      <td>
+        <div class="kite_surfing_div">
+          <h3>KITE SURFING</h3>
+          <p>The best spot for kite surfing. </p>
+          <p>Active kite seasons - June-Augus </p>
+          <p>and December - March. </p>
+          <p>Discounts for groups. </p>
+          <img src="images\kite_surfing.jpg" alt="kite surfing" width="300" height="240">
+        </div>
+      </td>
 
- <div class="mySlides fade">
-   <div class="numbertext">4 / 4</div>
-   <img src="images\pizza.jpg" style="width:30%">
-   <div class="text">Caption Four</div>
- </div>
+      <td>
+        <div class="safaris_div">
+          <h3>SAFARIS</h3>
+          <p> M%M Hotel Beach is a good starting</p>
+          <p>point to close destination safaris s</p>
+          <p>like Shimba Hills, Tsavo East,Serengetti park or</p>
+          <p>Amboseli. and fight safaris to</p>
+          <p>Masai Mara </p>
+          <img src="images\lioness.jpg" alt=" lioness" width="300" height="200">
+        </div>
+      </td>
+    </tr>
 
- <!-- Next and previous buttons -->
- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
- <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </table>
 </div>
-<br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
- <span class="dot" onclick="currentSlide(1)"></span>
- <span class="dot" onclick="currentSlide(2)"></span>
- <span class="dot" onclick="currentSlide(3)"></span>
- <span class="dot" onclick="currentSlide(4)"></span>
-</div>
-
-</div>  </center>
+<section id="contact" class="contact">
+          <div class="container">
+            <div class="row mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-md-12 text-center">
+                    <div class="heading">
+                      <center>
+                        <h1>Connect On Social</h1>
+                        <div class="bord-bot"></div>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s">Connect with M&M Hotel on social networking sites</p> </center>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-sm-6 text-center">
+                <div class="contact-cont wow fadeInUp"  data-wow-delay="0.3s">
+                  <a href="#">
+                    <img src="images/facebook.png" alt="" class="img-fluid">
+                    <h5>10000+ Likes</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 text-center">
+                <div class="contact-cont wow fadeInUp"  data-wow-delay="0.6s">
+                  <a href="#">
+                    <img src="images/twitter.png" alt="" class="img-fluid">
+                    <h5>8000+ Followers</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 text-center">
+                <div class="contact-cont wow fadeInUp"  data-wow-delay="0.9s">
+                  <a href="#">
+                    <img src="images/gmail.png" alt="" class="img-fluid">
+                    <h5>5000+ Followers</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 text-center">
+                <div class="contact-cont wow fadeInUp"  data-wow-delay="1.2s">
+                  <a href="#">
+                    <img src="images/youtube.png" alt="" class="img-fluid">
+                    <h5>53000+ View</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
   </body>
 </html>
